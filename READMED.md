@@ -45,9 +45,8 @@ O projeto pretende demonstrar como a tecnologia pode contribuir para a organiza�
 2. Consulta as campanhas disponíveis.
 3. Regista uma doação demonstrativa.
 4. A doação fica pendente de validação.
-5. O administrador aprova ou rejeita a doação.
-6. Quando aprovada, a doação é registada e os pontos são atribuídos de acordo com as regras do sistema.
-7. O utilizador consulta os pontos acumulados e pode experimentar o processo demonstrativo de resgate de vouchers.
+5. Quando aprovada, a doação é registada e os pontos são atribuídos de acordo com as regras do sistema.
+6. O utilizador consulta os pontos acumulados e pode experimentar o processo demonstrativo de resgate de vouchers.
 
 ## Tecnologias utilizadas
 

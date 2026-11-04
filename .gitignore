@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+.env.*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Front-end
+Front-end/assets/
+Front-end/styles/
+
+# Back-end
+Back-end/__pycache__/
+Back-end/*.pyc
+Back-end/*.pyo
+Back-end/*.pyd
+Back-end/.env
+Back-end/venv/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore documentation build
+Back-end/docs/_build/
+docs/_build/

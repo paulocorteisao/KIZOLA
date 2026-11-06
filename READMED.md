@@ -140,6 +140,14 @@ npm start
 
 Abre o ficheiro `frontend/index.html` no navegador ou utiliza a extensão Live Server no Visual Studio Code.
 
+Para iniciar a página com o servidor local incluído no Python, a partir da pasta principal do projeto, executa:
+
+```bash
+python iniciar.py
+```
+
+Depois, abre `http://127.0.0.1:8000/pages/index.html` no navegador. Não são necessárias dependências Python adicionais. Para parar o servidor, pressiona `Ctrl+C`.
+
 Se o backend estiver em execução, configura o JavaScript do frontend para comunicar com a API no endereço correspondente, por exemplo:
 
 ```text

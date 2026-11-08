@@ -28,12 +28,18 @@
              <h1>Welcome back</h1>
             <strong class="s-login">New to Kizola? <small class="sl-login">Sign up for free</small></strong>
             <form action="">
-                <label for="" id="label-1">Email address</label>
+              <div class="label-new">  <label for="" id="label-1">Email</label></div>
                 <input type="email" name="" id="" placeholder="you@gmail.com">
-                <label for="" id="label-2">Password</label>
+               <div class="label-new"> <label for="" id="label-2">Password</label></div>
                 <input type="password" name="" id="" placeholder="Enter your password">
-                <input type="checkbox" name="" id="checkbox" placeholder="remember me">
-                <input type="submit" value="sign in">
+                  <label class="checkbox-label">
+                    <input type="checkbox" name="terms" required>
+
+                    <span>
+                        Remember me
+                    </span>
+                </label>
+                <button type="submit" value="sign in">sign in</button>
 
                 <div class="opcoes-login">
                     <button>Google</button>

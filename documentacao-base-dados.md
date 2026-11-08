@@ -8,7 +8,6 @@ A estrutura foi concebida para permitir o acompanhamento das doações realizada
 A base de dados é composta por sete tabelas:
 - utilizadores
 - doacoes
-- validacoes_doacoes
 - carteiras_pontos
 - parceiros
 - vouchers
@@ -43,17 +42,7 @@ data_doacao	Data e hora do registo da doação.
 utilizador_id	Chave estrangeira que identifica o utilizador responsável pela doação.
 
 Finalidade: registar e acompanhar as doações realizadas na plataforma.
-2.3. Tabela validacoes_doacoes
-A tabela validacoes_doacoes armazena as informações relacionadas com o processo de validação das doações pelo administrador.
 
-Permite registar a decisão tomada, a data da validação e o administrador responsável.
-Campo	Descrição
-id	Identificador único da validação.
-decisao	Indica se a doação foi aprovada ou rejeitada.
-observacao	Justificação ou comentário do administrador.
-data_validacao	Data e hora em que a validação foi realizada.
-doacao_id	Chave estrangeira que identifica a doação validada.
-administrador_id	Chave estrangeira que identifica o administrador responsável.
 
 Finalidade: garantir o controlo administrativo das doações e manter o registo das decisões tomadas.
 2.4. Tabela carteiras_pontos

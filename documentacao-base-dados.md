@@ -152,3 +152,5 @@ A estrutura da base de dados permite gerir os principais processos da Plataforma
 A utilização de chaves primárias e estrangeiras permite estabelecer relações entre as tabelas e assegurar a integridade dos dados.
 
 É importante destacar que a tabela carteiras_pontos armazena apenas o saldo actual dos pontos. Como a tabela movimentos_pontos foi removida, não será possível consultar detalhadamente o histórico de entradas e saídas de pontos através da base de dados actual.
+
+terminando 

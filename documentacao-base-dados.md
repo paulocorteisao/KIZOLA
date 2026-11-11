@@ -109,19 +109,6 @@ Um utilizador pode realizar várias doações, mas cada doação pertence a um �
 3.2. Doações e Validações de Doações
 Relação: Um para Muitos (1:N)
 
-Uma doação pode possuir vários registos de validação ao longo do processo administrativo. Cada registo de validação está associado a uma única doação.
-- Tabela principal: doacoes
-- Tabela dependente: validacoes_doacoes
-- Chave estrangeira: doacao_id
-3.3. Utilizadores e Validações de Doações
-Relação: Um para Muitos (1:N)
-
-Um administrador pode validar várias doações. Cada validação é realizada por um único administrador.
-- Tabela principal: utilizadores
-- Tabela dependente: validacoes_doacoes
-- Chave estrangeira: administrador_id
-3.4. Utilizadores e Carteiras de Pontos
-Relação: Um para Um (1:1)
 
 Cada utilizador possui uma única carteira de pontos, e cada carteira pertence exclusivamente a um utilizador.
 - Tabela principal: utilizadores

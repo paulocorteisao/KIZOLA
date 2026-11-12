@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -12,5 +13,37 @@ a{
 
 }
 .nav-links{
-    gap: 2px;
+    gap: 4px;
+
+}
+a:hover{
+    background-color: #e7dede;
+    
+    width: 230px;
+    height: 230px;
+    padding: 3px;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.2s;
+    
+}
+.link-perfil{
+      color: white;
+    background-color: #cc0010;
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-radius: 200px;
+    border: none;
+    margin-left: 20px;
+}
+.link-perfil:hover{
+    color: black;
+    background-color: #e7dede;
+}
+.link-logout{
+    border: none;
+    font-size: 19px;
+    background-color: white;
+    margin-left: 15px;
 }

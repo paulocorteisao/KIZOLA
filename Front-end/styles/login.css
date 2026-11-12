@@ -1,0 +1,191 @@
+* { 
+  box-sizing: border-box; 
+  font-family: 'DM Sans', Arial, sans-serif;
+  margin-top: 0;
+  padding: 0;
+}
+body { 
+  margin: 0; 
+ 
+ }
+
+.home{
+    display: flex;
+}
+
+.description{
+    background-color: #cc0010;
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    text-align: left;
+    
+}
+.titulo{
+    font-size: 40px;
+    color: white;
+    margin-top: 11%;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    
+}
+.text{
+     font-size: 23px;
+    color: white;
+    margin-left: 100px;
+}
+.desen{
+    color: white;
+        margin-left: 100px;
+        font-size: 15px;
+    
+}
+.card-login{
+   
+    width: 60%;
+    height: 90vh;
+
+}
+.car-login-2{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form #checkbox{
+     margin-right: 350px;
+}
+
+label{
+    font-size: 13px;
+    
+}
+form input,button{
+    width: 46%;
+    padding: 12px;
+     border: solid 2px transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+form input:focus{
+    outline: none;
+    border: solid 1px#cc0010;
+}
+form input{
+ border: none;
+ border: solid 1px rgb(190, 184, 184);
+}
+form .button-entrar{
+    background-color:#cc0010;
+    color: white;
+    border: none;
+}
+.opcoes-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 46%;
+
+}
+.opcoes-login button{
+    width: 180px;
+    border: none;
+ border: solid 1px rgb(190, 184, 184);
+
+    
+   
+}
+.s-login{
+    font-size: 10px;
+}
+.sl-login{
+    font-size: 10px;
+    cursor: pointer;
+    color: #cc0010;
+}
+.label-new{
+    display: flex;
+    justify-content: flex-start;
+    width: 376px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+    justify-content: space-evenly;
+     margin-right: 288px;
+     white-space: nowrap
+}
+
+.checkbox-label input {
+    margin-top: 3px;
+    accent-color:#cc0010;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 46%;
+    margin: 25px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider span {
+    font-size: 13px;
+    color: #888;
+    white-space: nowrap;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer  .logo{
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+footer .logo .name {
+  font-size: 22px;
+}
+footer .logo small {
+  font-size: 10px;
+  color: #cc0010;
+}
+.frase-footer span{
+    color:#a5b1bd;
+    font-size: 13px;
+}
+.ano-footer span{
+     color:#a5b1bd;
+    font-size: 13px;
+}

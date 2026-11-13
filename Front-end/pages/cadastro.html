@@ -42,28 +42,48 @@
         <div class="card-login">
            <div class="car-login-2">
 
-             <h1>Crie sua conta gratuita</h1>
-            <strong class="s-login">Já tem uma conta?  <small class="sl-login">Iniciar sessão.</small></strong>
-            <form id="formCadastro">
-              <div class="label-new">  <label for="" id="label-1">Nome completo</label></div>
-                <input type="text" name="nome" id="" placeholder="Insira o seu nome" required>
+             
+<h1>Crie sua conta gratuita</h1>
 
-               <div class="label-new"> <label for="" id="label-2">Endereço de e-mail</label></div>
-                <input type="email" name="email" id="" placeholder="you@gmail.com" required>
+<strong class="s-login">
+    Já tem uma conta? <small class="sl-login">Iniciar sessão.</small>
+</strong>
 
-                 <div class="label-new">  <label for="" id="label-1">Senha</label></div>
-                <input type="password" name="palavra-passe " id="" placeholder="pelo menos 6 caracteres" required>
+<form action="../Back-end/controllers/auth.php" method="POST">
 
-               <div class="label-new"> <label for="" id="label-2">Confirme a senha</label></div>
-                <input type="password" name="confirmar-senha" id="" placeholder="digite a senha novamente" required>
-                  <label class="checkbox-label">
-                    <input type="checkbox" name="terms" required>
+    <div class="label-new">
+        <label>Nome completo</label>
+    </div>
+    <input type="text" name="nome" placeholder="Insira o seu nome" required>
 
-                    <span>
-                       Concordo com os Termos de Uso e a Política de Privacidade.
-                    </span>
-                </label>
-                <button type="submit" class="button-entrar">sign in</button>
+    <div class="label-new">
+        <label>Endereço de e-mail</label>
+    </div>
+    <input type="email" name="email" placeholder="you@gmail.com" required>
+
+    <div class="label-new">
+        <label>Senha</label>
+    </div>
+    <input type="password" name="senha" placeholder="Pelo menos 6 caracteres" minlength="6" required>
+
+    <div class="label-new">
+        <label>Confirme a senha</label>
+    </div>
+    <input type="password" name="confirmar_senha" placeholder="Digite a senha novamente" minlength="6" required>
+
+    <label class="checkbox-label">
+        <input type="checkbox" name="terms" value="1" required>
+        <span>
+            Concordo com os Termos de Uso e a Política de Privacidade.
+        </span>
+    </label>
+
+    <button type="submit" class="button-entrar">
+        Cadastrar
+    </button>
+
+</form>
+
 
                <div class="divider">
     <div class="line"></div>

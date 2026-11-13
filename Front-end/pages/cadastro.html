@@ -44,15 +44,18 @@
 
              <h1>Crie sua conta gratuita</h1>
             <strong class="s-login">Já tem uma conta?  <small class="sl-login">Iniciar sessão.</small></strong>
-            <form action="">
+            <form id="formCadastro">
               <div class="label-new">  <label for="" id="label-1">Nome completo</label></div>
-                <input type="text" name="" id="" placeholder="Insira o seu nome">
+                <input type="text" name="nome" id="" placeholder="Insira o seu nome" required>
+
                <div class="label-new"> <label for="" id="label-2">Endereço de e-mail</label></div>
-                <input type="password" name="" id="" placeholder="you@gmail.com">
+                <input type="email" name="email" id="" placeholder="you@gmail.com" required>
+
                  <div class="label-new">  <label for="" id="label-1">Senha</label></div>
-                <input type="email" name="" id="" placeholder="pelo menos 6 caracteres">
+                <input type="password" name="palavra-passe " id="" placeholder="pelo menos 6 caracteres" required>
+
                <div class="label-new"> <label for="" id="label-2">Confirme a senha</label></div>
-                <input type="password" name="" id="" placeholder="digite a senha novamente">
+                <input type="password" name="confirmar-senha" id="" placeholder="digite a senha novamente" required>
                   <label class="checkbox-label">
                     <input type="checkbox" name="terms" required>
 
@@ -91,4 +94,5 @@
 
     
 </body>
+<script src="../scripts/cadastro.js"></script>
 </html>

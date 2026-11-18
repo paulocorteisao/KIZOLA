@@ -16,8 +16,8 @@
     </div> 
 
     <div class="button-nav">
-        <a href="./login.html"> <button class="login">Login</button></a>
-       <a href="./cadastro.html"> <button class="cadastro">Cadastrar</button></a>
+        <a href="./login.php"> <button class="login">Login</button></a>
+       <a href="./cadastro.php"> <button class="cadastro">Cadastrar</button></a>
     </div>
     </nav>
 
@@ -40,7 +40,7 @@
            <div class="car-login-2">
 
              <h1>Bem-vindo de volta</h1>
-            <strong class="s-login">Novo na Kizola? <a href="./cadastro.html"><small class="sl-login">Cadastre-se gratuitamente.</small>.</a></strong>
+            <strong class="s-login">Novo na Kizola? <a href="./cadastro.php"><small class="sl-login">Cadastre-se gratuitamente.</small>.</a></strong>
             <form action="">
               <div class="label-new">  <label for="" id="label-1">Email</label></div>
                 <input type="email" name="" id="" placeholder="you@gmail.com">
@@ -53,7 +53,7 @@
                         Remember
                     </span>
                 </label>
-                <button type="submit" class="button-entrar">sign in</button>
+                <button type="submit" class="button-entrar"><a href="./dashboard.php">sign in</a></button>
 
                <div class="divider">
     <div class="line"></div>

@@ -19,8 +19,8 @@
     </div> 
 
     <div class="button-nav">
-       <a href="./login.html"> <button class="login">Login</button></a>
-       <a href="./cadastro.html"> <button class="cadastro">Cadastrar</button></a>
+       <a href="./login.php"> <button class="login">Login</button></a>
+       <a href="./cadastro.php"> <button class="cadastro">Cadastrar</button></a>
     </div>
     </nav>
 
@@ -78,9 +78,10 @@
         </span>
     </label>
 
-    <button type="submit" class="button-entrar">
+        <button type="submit" class="button-entrar">
         Cadastrar
     </button>
+    
 
 </form>
 

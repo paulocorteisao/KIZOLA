@@ -49,7 +49,7 @@
     Já tem uma conta? <small class="sl-login">Iniciar sessão.</small>
 </strong>
 
-<form action="/Front-end/pages/dashboard.php" method="POST">
+<form action="../../Back-end/config/processar_cadastro.php" method="POST">
 
     <div class="label-new">
         <label>Nome completo</label>

@@ -53,7 +53,7 @@
                         Remember
                     </span>
                 </label>
-                <button type="submit" class="button-entrar"><a href="./dashboard.php">sign in</a></button>
+                <button type="submit" class="button-entrar">sign in</button>
 
                <div class="divider">
     <div class="line"></div>

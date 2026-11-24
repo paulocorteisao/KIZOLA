@@ -22,9 +22,6 @@ header("Location: ../../Front-end/pages/dashboard.php");
     } else {
         echo "Erro ao realizar o cadastro!";
     }
-
-} else {
-    echo "Acesso inválido!";
-}
+ }
 
 ?>

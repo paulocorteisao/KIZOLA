@@ -1,7 +1,6 @@
 
 <?php
 
-session_start();
 require_once "conexao.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -15,15 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $sql = "SELECT * FROM usuarios WHERE email = ?";
     $resultado = $conexao->execute_query($sql, [$email]);
-
     $usuario = $resultado->fetch_assoc();
 
     if ($usuario && password_verify($senha, $usuario["senha"])) {
-
-        session_regenerate_id(true);
-
-        $_SESSION["usuario_id"] = $usuario["id"];
-        $_SESSION["usuario_nome"] = $usuario["nome"];
 
         header("Location: ../../Front-end/pages/dashboard.php");
         exit;
@@ -34,3 +27,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 
 ?>
+

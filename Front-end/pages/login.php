@@ -41,11 +41,11 @@
 
              <h1>Bem-vindo de volta</h1>
             <strong class="s-login">Novo na Kizola? <a href="./cadastro.php"><small class="sl-login">Cadastre-se gratuitamente.</small>.</a></strong>
-            <form action="">
+         <form action="../../Back-end/config/processar_login.php" method="POST">
               <div class="label-new">  <label for="" id="label-1">Email</label></div>
-                <input type="email" name="" id="" placeholder="you@gmail.com">
+                <input type="email" name="email" id="" placeholder="you@gmail.com">
                <div class="label-new"> <label for="" id="label-2">Password</label></div>
-                <input type="password" name="" id="" placeholder="Enter your password">
+                <input type="password" name="senha" id="" placeholder="Enter your password">
                   <label class="checkbox-label">
                     <input type="checkbox" name="terms" required>
 

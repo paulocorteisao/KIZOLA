@@ -49,7 +49,9 @@
         <div class="valor-ex"><h1>Custom amount</h1></div>
        </div>
        <div class="valores">
-        <button class="button-valor">continue  to payment</button>
+       <button class="button-valor">continue  to payment</button>
+
+         
        </div>
 
       </div>

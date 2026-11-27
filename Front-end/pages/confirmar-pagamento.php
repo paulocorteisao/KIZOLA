@@ -28,7 +28,7 @@
     </div>
     </nav>
     <section class="card-doacoes">
-  <div class="back">   <a href="">← back</a></div>
+  <div class="back">   <a href="../pages/doar.php">← back</a></div>
     <div class="card-doacoes-f">
         <div class="explication">
             <h1>Confirme seu pagamento</h1>
@@ -50,6 +50,8 @@
        </div>
        <div class="valores">
         <button class="button-valor">confirm  donation</button>
+
+      
        </div>
 
       </div>

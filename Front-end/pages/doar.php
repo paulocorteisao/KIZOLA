@@ -31,8 +31,8 @@
     
     <div class="card-doacoes-f">
         <div class="explication">
-            <h1>Make a money donation</h1>
-            <span>Choose your donation amount and earn points.</span>
+            <h1>Faça uma doação em dinheiro</h1>
+            <span>Escolha o valor da sua doação e ganhe pontos.</span>
         </div>
 
       <div class="valores-mae">
@@ -46,10 +46,10 @@
        </div>
 
        <div class="valores">
-        <div class="valor-ex"><h1>Custom amount</h1></div>
+        <div class="valor-ex"><h1>Valor personalizado</h1></div>
        </div>
        <div class="valores">
-       <button class="button-valor">continue  to payment</button>
+       <button class="button-valor">continuar para o pagamento</button>
 
          
        </div>

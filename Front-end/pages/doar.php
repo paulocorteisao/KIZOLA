@@ -18,10 +18,10 @@
     </div> 
 
     <div class="button-nav" class="nav-links">
-       <a href="">Painel de control</a>
-       <a href="">Doar</a>
-       <a href="">Recompensas</a>
-       <a href="">Quadro de lideres</a>
+       <a href="../pages/dashboard.php">Painel de control</a>
+       <a href="../pages/doar.php">Doar</a>
+       <a href="../pages/recompensas.php">Recompensas</a>
+       <a href="../pages/lideres.php">Quadro de lideres</a>
        <button class="link-perfil">G</button>
        <button href="" class="link-logout"> ↪</button>
        

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-       <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/dashboard.css">
     <link rel="stylesheet" href="../styles/confirmar-pagamento.css">
 
@@ -27,7 +27,8 @@
        
     </div>
     </nav>
-
+    <section class="card-doacoes">
+    
     <div class="card-doacoes-f">
         <div class="explication">
             <h1>Make a money donation</h1>
@@ -55,6 +56,17 @@
 
     </div>
 
-    
+
+    </section>
+    <footer>
+            <div class="logo-footer"><div class="logo">
+  
+    <span ><strong class="name">Kizola</strong> <br> <small>DOAR · TRANSFORMAR</small></span>
+  
+    </div> </div>
+            <div class="frase-footer"><span>Doar é uma maneira simples de mudar vidas.</span></div>
+            <div class="ano-footer"><span>© 2026 Kizola. Feito com carinho.</span></div>
+        </footer>
+
 </body>
 </html>

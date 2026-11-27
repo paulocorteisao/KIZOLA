@@ -6,6 +6,8 @@
     <title>Document</title>
        <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/confirmar-pagamento.css">
+
 </head>
 <body>
     <nav>

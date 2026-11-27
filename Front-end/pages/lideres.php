@@ -80,7 +80,10 @@
 /* =====================================
    KIZOLA - CONSTRUCTION COMPONENT
 ===================================== */
-
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .kizola-coming-soon {
 
     --kizola-red: #E3443D;

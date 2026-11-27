@@ -31,8 +31,8 @@
     
     <div class="card-doacoes-f">
         <div class="explication">
-            <h1>Make a money donation</h1>
-            <span>Choose your donation amount and earn points.</span>
+            <h1>Confirme seu pagamento</h1>
+            <span>Escolha um método de pagamento para sua doação.</span>
         </div>
 
       <div class="valores-mae">

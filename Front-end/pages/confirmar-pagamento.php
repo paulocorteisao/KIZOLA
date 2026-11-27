@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+</head>
+<body>
+    <nav>
+    <div class="logo">
+  
+    <span ><strong class="name">Kizola</strong> <br> <small>DOAR · TRANSFORMAR</small></span>
+  
+    </div> 
+
+    <div class="button-nav" class="nav-links">
+       <a href="">Painel de control</a>
+       <a href="">Doar</a>
+       <a href="">Recompensas</a>
+       <a href="">Quadro de lideres</a>
+       <button class="link-perfil">G</button>
+       <button href="" class="link-logout"> ↪</button>
+       
+    </div>
+    </nav>
+    
+</body>
+</html>

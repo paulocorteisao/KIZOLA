@@ -5,6 +5,7 @@
     border-radius: 12px;
     border: solid 2px #ffffff50;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+ 
      
 }
 .card-doacoes{
@@ -12,6 +13,8 @@
    justify-content: center;
    align-items: center;
    min-height: 100vh;
+     
+     flex-direction: column;
 }
 .valores{
     display: flex;
@@ -45,12 +48,12 @@
 }
 .valor-ex{
     width: 650px;
-    height: 76px;
+    height: 50px;
     border: solid 1px #666666;
        border-radius: 12px;
        display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 10px;
     cursor: pointer;
 }
@@ -89,4 +92,16 @@
 }
 .explication span{
     font-size: 12px;
+}
+.back {
+    width: 650px;
+    height: 12px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+}
+.back :hover{
+color: #cc0010;
+background-color: transparent;
+
 }

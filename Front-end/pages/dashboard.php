@@ -17,10 +17,10 @@
     </div> 
 
     <div class="button-nav" class="nav-links">
-       <a href="">Painel de control</a>
-       <a href="">Doar</a>
-       <a href="">Recompensas</a>
-       <a href="">Quadro de lideres</a>
+       <a href="" class="a">Painel de control</a>
+       <a href="" class="a">Doar</a>
+       <a href="" class="a">Recompensas</a>
+       <a href="" class="a">Quadro de lideres</a>
        <button class="link-perfil">G</button>
        <button href="" class="link-logout"> ↪</button>
        

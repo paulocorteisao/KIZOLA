@@ -28,7 +28,7 @@
     </div>
     </nav>
     <section class="card-doacoes">
-    
+  <div class="back">   <a href="">← back</a></div>
     <div class="card-doacoes-f">
         <div class="explication">
             <h1>Confirme seu pagamento</h1>

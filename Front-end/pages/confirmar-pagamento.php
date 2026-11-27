@@ -37,19 +37,19 @@
 
       <div class="valores-mae">
           <div class="valores">
-        <div class="valor-1"><h1>KZ 1000</h1> <span>+10 pontos</span></div>
-        <div class="valor-1"><h1>KZ 2000</h1> <span>+20 pontos</span></div>
+        <div class="valor-1"><h1>Multicaixa Express</h1> </div>
+        <div class="valor-1"><h1>UNITEL Money</h1></div>
        </div>
         <div class="valores">
-        <div class="valor-1"><h1>KZ 5000</h1> <span>+50 pontos</span></div>
-        <div class="valor-1"><h1>KZ 10.000</h1> <span>+100 pontos</span></div>
+        <div class="valor-1"><h1>Afrimoney</h1></div>
+        <div class="valor-1"><h1>PayPay África</h1></div>
        </div>
 
        <div class="valores">
-        <div class="valor-ex"><h1>Custom amount</h1></div>
+        <div class="valor-ex"><h1>donation total</h1> <span>price</span></div>
        </div>
        <div class="valores">
-        <button class="button-valor">continue  to payment</button>
+        <button class="button-valor">confirm  donation</button>
        </div>
 
       </div>
